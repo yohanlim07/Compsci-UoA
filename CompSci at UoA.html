@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>UoA Computer Science</title>
+	<link rel= "stylesheet" href="style.css"/>
+	<script type="text/javascript" src="script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div id="navbar">
+	<center><img id="navbar-logo" src="http://redsox.uoa.auckland.ac.nz/ups/logo.svg" height="85" width="85"></center>
+		<ul id="navlist">
+			<center>
+				<li onClick="showHome();"><a>Home</a></li>
+				<li onClick="showCourses();"><a>Courses</a></li>
+				<li onClick="showPeople();"><a>People</a></li>
+				<li onClick="showNews();"><a>News</a></li>
+				<li onClick="showNotices();"><a>Notices</a></li>
+				<li onClick="showGuestBook();"><a>Guest Book</a></li>
+			</center>
+		</ul>
+	</div>
+	
+	<section id="home">
+		<center>
+			<h1>Computer Science @ UoA</h1>
+			<hr>
+			<br><p>Welcome to New Zealand's leading computer science department. 
+			<br>We pride ourselves on the excellence of our staff and our students.</p>
+		</center>
+	</section>
+	
+	<section id="courses">
+		<center>
+		<h1>Courses</h1>
+		</center>
+		<hr>
+	</section>
+	
+	<section id="people">
+		<center>
+		<h1>People</h1>
+		</center>
+		<hr>
+	</section>
+	
+	<section id="news">
+		<center>
+		<h1>News</h1>
+		</center>
+		<hr>
+	</section>
+	
+	<section id="notices">
+		<center>
+		<h1>Notices</h1>
+		</center>
+		<hr>
+	</section>
+	
+	<section id="guestbook">
+		<center>
+		<h1>Guest Book</h1>
+		</center>
+		<hr>
+		<div class="iframe-container">
+				<iframe class="comments" src="http://redsox.uoa.auckland.ac.nz/ups/UniProxService.svc/htmlcomments"></iframe>
+			</div>
+			<form action= "javascript:postComment()">
+				Name:<br> 
+				<input id="GBname" type="text" name="name"><br>
+				Comment:<br>
+				<input id="GBcomment" type="text" name="comment"><br>
+				<input id="GBbutton" type="submit">
+			</form>
+	</section>
+</body>
+</html>

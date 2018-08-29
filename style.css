@@ -1,0 +1,107 @@
+body {
+	background-color:#86b0e0;
+	font-family: sans, sans-serif;
+	font-size:1.5em;
+}
+
+#navbar {
+	background-color:#4086d6;
+}
+
+#navlist {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom:10px;
+	
+}
+
+#navlist li{
+		display: inline;
+		font-size:25px;
+		font-family: sans, sans-serif;
+		color:#222222;
+		padding:5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #5468ff;
+		border-top-width: 0px;
+		border-bottom-width: 0px;
+}
+
+#navlist li a:hover {
+    color: #bfbfbf;
+	cursor: pointer;
+}
+
+#courses{
+	display: none;
+}
+
+#people{
+	display: none;
+}
+
+#news{
+	display: none;
+}
+
+#notices{
+	display: none;
+}
+
+#guestbook{
+	display: none;
+}
+
+.courseDesc{
+	font-size: 0.85em;
+}
+
+.courseReqs{
+	font-size: 0.85em;
+}
+
+.newPerson{
+	white-space: wrap;
+}
+
+.staffImage{
+	float: left;
+	margin-right: 30px;
+}
+
+.staffTitle{
+	font-size: 0.85em;
+}
+
+.staffVCard{
+	margin-right: 20px;
+	font-size: 0.80em;
+}
+
+.staffEmail{
+	margin-right: 20px;
+	font-size: 0.80em;
+}
+
+.staffPhone{
+	font-size: 0.80em;
+}
+
+.newsDesc{
+	font-size: 0.85em;
+}
+
+.newsDate{
+	font-size: 0.75em;
+}
+
+.noticeDesc{
+	font-size: 0.85em;
+}
+
+.noticeDate{
+	font-size: 0.75em;
+}
